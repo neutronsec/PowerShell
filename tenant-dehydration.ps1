@@ -21,7 +21,6 @@ Install-Module -Name ExchangeOnlineManagement -Verbose -AllowClobber -Force
 
 Connect-ExchangeOnline
 
-
 # Check dehydrate status
 Get-OrganizationConfig | Format-List Identity,IsDehydrated
 
